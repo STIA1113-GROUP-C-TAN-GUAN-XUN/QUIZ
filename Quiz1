@@ -1,0 +1,198 @@
+STIA1113
+
+Quiz 1
+
+1. In the Java programming language, all source code is first written in plain text files ending with the ______ extension.
+a..javac
+b..java
+c..class
+d..txt
+
+ Answer: ____b__
+
+2. The Java compiler generates
+a.machine code
+b.source code
+c.byte code
+d.HTML
+
+Answer: __c____
+
+ 3. JVM stands for
+a.Java Variable Machine
+b.Java Variable Method
+c.Java Virtual Method
+d.Java Virtual Machine
+ 
+ Answer: __d____
+
+4. Write a Java program to print the sum of two numbers.
+ 
+Answer:
+
+ class SumProgram
+{
+    public static void main(String[] args)
+{
+	int x=10;
+	int y=5;
+	int sum;
+	
+	sum = x+y;
+	System.out.println(sum);
+    }
+}
+
+
+5. Write the signature of the main method.
+  
+Answer: ___public static void main(String[] args)___
+
+6. These characters mark the beginning of a single-line comment.
+a.//
+b./*
+c.*/
+d./**
+Answer: ___a___
+
+ 
+7. Which of the following are not valid assignment statements?
+a.sum = 9;
+b.72 = cost;
+c.price = 129;
+d.ans = 'y';
+ 
+ Answer: ___b___
+
+8. Which of the following are valid Java identifiers?
+a.myFirstProgram
+b.1stProgram
+c.Program1
+d.David'sFirstProgram
+e.First Program
+f.FIRST_PROGRAM
+ 
+ Answer: __a,c,f____
+
+9. This is a named storage location in the computer's memory.
+a.class
+b.keyword
+c.variable
+d.operator
+
+  Answer: ___c___
+
+10.This keyword is used to declare a named constant.
+a.constant
+b.namedConstant
+c.final
+d.concrete
+
+Answer: ___c___
+
+11. Which of the following is not primitive data type?
+a.String
+b.double
+c.boolean
+d.int
+ 
+ Answer: ___a___
+
+12. Write Java statements that accomplish the following.
+i.Declare int variables a and b.
+ii.Initialize an int variable x to 10 and a char variable ch to 'y'.
+iii.Declare and initialize a double variable payRate to 12.50.
+iv.Declare a boolean variable ans and set the value of ans to true.
+  Answer:  	I. int a, b;
+		II. int x = 10;
+		     char ch = ‘y’;
+		III. double payRate = 12.50;
+		IV. Boolean ans = true;
+
+13. Write the output of the following expressions.
+i.System.out.println(13 / 4);
+ii.System.out.println(2 + 12 / 4);
+iii.System.out.println(21 % 5);
+iv.System.out.println(3 - 5 % 7);
+v.System.out.println(17.0 / 4);
+vi.System.out.println(8 - 5 * 2.0);
+vii.System.out.println(14 + 5 % 2 - 3);
+viii.System.out.println(15.0 + 3 / 2);
+
+Answer: 	I. 3
+		II. 5
+		III. 1
+		IV. -2
+		V. 4.25
+		VI. -2.0
+		VII. 12
+		VIII. 16.0
+
+14. What is the value of each variable after the last statement executes?
+int a, b, c;
+double x, y;
+a = 17;
+b = 15;
+a = a + b / 4;
+c = a % 3 + 4;
+x = 17 / 3 + 6.5;
+y = a / 4.0 + 15 % 4 - 3.5;
+ 
+ Answer:	a=20
+		b=15
+		c=6
+		x=11.5
+		y=4.5
+
+
+15. Suppose x, y, and sum are int variables and z is a double variable. What value is assigned to sum variable after statement executes? Suppose x = 3, y = 5, and z = 14.1.
+sum = x + y + (int) z;
+  Answer: ___22___
+
+16. Write equivalent statements using combined assignment for the following, if possible.
+i.x = 2 * x;
+ii.x = x + y - 2;
+iii.sum = sum + num;
+iv.y = y / (x + 5);
+
+Answer: 	i. x *= 2;
+ii. x += y - 2;
+iii. sum += num;
+iv. y /= (x+5)
+17. Change the SampleProgram.java program so that it displays Programming is fun! instead of Hello World!.
+class SampleProgram
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hello World!");
+    }
+}
+  
+Answer:
+ class SampleProgram
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Programming is fun!");
+    }
+}
+
+
+18. The FixProgram.java has some errors. Fix the errors so that the program successfully compiles and runs.
+class FixProgram
+{
+    public static void main(String[] args)
+    {
+        System.out.println('Hello World!')
+    }
+}
+
+ Answer: 
+
+class FixProgram
+{
+    public static void main(String[] args)
+    {
+        System.out.println(“Hello World!”);
+    }
+}
